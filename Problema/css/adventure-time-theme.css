@@ -16,7 +16,7 @@
     background-color: #424A5D;
     color: white;
     border-bottom: 1px solid black;
-    position: relative;
+
 }
 #sidebar{
         background-color: #424A5D;
@@ -25,29 +25,38 @@
 
 }
 .sidebar-toggle-box{
-padding: 5px;
+    padding: 5px;
 }
 .logo{
     position: absolute;
     top: 5px;
-margin-left: 23px;
-color: white;
+    margin-left: 23px;
+    color: white;
 }
 .top-menu{
     background-color: #9C4C9D;
-
 }
 .sidebar-menu{
-    
+
     color: white;
 }
+.sub-menu{
+    padding: 10px;
+}
 ul li {
-
     list-style: none;
+
+
+
+}
+ul {
+    margin-left: -50px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 ul li a{
     color: white;
-    padding: 5px;
+    padding:10px 30px;
 }
 .sub-menu a:hover{
     background-color: #9C4C9D;
