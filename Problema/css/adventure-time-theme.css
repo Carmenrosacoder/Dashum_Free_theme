@@ -112,5 +112,17 @@ h4 {
     color:#989898;
 }
 .btn-lg{
-padding: 7px 13px;
+    font-size: 15px;
+}
+.btn-def{
+padding: 8px 14px;
+    font-size: 13px;
+   padding: 5px 10px;
+}
+.btn-sm{
+    font-size: 11px;
+    padding: 3px 8px
+}
+.btn-theme ,.btn-theme02 , .btn-theme03 ,.btn-theme04{
+    color: #989898;
 }
