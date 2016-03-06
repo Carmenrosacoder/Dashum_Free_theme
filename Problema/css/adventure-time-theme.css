@@ -12,6 +12,7 @@
 }
 
 /*Escribe aqui tu codigo */
+
 body{
     background-color: #F2F2F2;
     font-size: 13px;
@@ -97,6 +98,7 @@ ul li a{
     margin-left: 15%;
 
 }
+/*BUTTONS.HTML*/
 .showback{
     margin: 6% 1% -15px 1%;
     padding: 9px 8px;
@@ -112,10 +114,11 @@ h4 {
     color:#989898;
 }
 .btn-lg{
+padding: 8px 14px;
     font-size: 15px;
 }
 .btn-def{
-padding: 8px 14px;
+
     font-size: 13px;
    padding: 5px 10px;
 }
@@ -123,6 +126,66 @@ padding: 8px 14px;
     font-size: 11px;
     padding: 3px 8px
 }
-.btn-theme ,.btn-theme02 , .btn-theme03 ,.btn-theme04{
+h1 ,.btn-theme ,.btn-theme02 , .btn-theme03 ,.btn-theme04{
     color: #989898;
+}
+/*DASHBOARD.HGTML*/
+.box1{
+    font-size: 35px;
+    text-align: center;
+     color: #989898;
+    margin: 25px 5px;
+    padding: 5px;
+     border-bottom: 1px solid #989898;
+   
+}
+.box1 h3{
+    font-size: 20px;
+}
+.box0:hover{
+background-color: #FFFFFF;
+}
+
+.box0 p{
+ display: none;
+}
+.box0 span:hover{
+display: block;
+}
+
+
+.page-header{
+    padding: 0px;
+}
+.ds{
+background-color: white;
+}
+.ds h3{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    background-color: #9C4C9D;
+    padding:12px 17px;
+}
+.col-md-5 p{
+    color: #989898;
+}
+.page-header h1{
+
+    font-size: 26px;
+}
+.desc{
+    border-bottom: 1px solid #989898;
+}
+.details {
+        margin-left: 44px;
+    margin-top: -22px;
+}
+.thumb span {
+    margin: 5px 10px;
+    background-color: #6EDFF0;
+}
+p muted{
+text-transform: uppercase;
+font-style: italic;
 }
