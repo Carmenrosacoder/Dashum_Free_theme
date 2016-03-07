@@ -1,232 +1,221 @@
 /*No tocar este codigo*/
+
 .sidebar-closed > #sidebar > ul {
     display: none;
 }
-
 .sidebar-closed #main-content {
     margin-left: 0px;
 }
-
 .sidebar-closed #sidebar {
     margin-left: -180px;
 }
 
 /*Escribe aqui tu codigo */
 
-body{
-    background-color: #F2F2F2;
-    font-size: 13px;
-}
-.row{
+
+.row {
     padding: 0px;
     margin: 0px;
 }
-.black-bg{
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+body {
+    background-color: #F2F2F2;
+    font-size: 13px;
+}
+/*blank.html*/
+.black-bg {
     background-color: #424A5D;
     color: white;
     border-bottom: 1px solid black;
     font-size: 15px;
-
 }
-#sidebar{
-        background-color: #424A5D;
-        float: left;
-       width: 15%;
-     
-       
-
+#sidebar {
+    background-color: #424A5D;
+    float: left;
+    width: 15%;
+    height: 800px;
 }
-.sidebar-toggle-box{
+.sidebar-toggle-box {
     position: relative;
     padding: 13px;
-
 }
-.logo{
-
+.logo {
     position: absolute;
     top: 13px;
     margin-left: 38px;
     color: white;
 }
-.top-menu{
+.top-menu {
     font-size: 13px;
     background-color: #9C4C9D;
-   position: absolute;
-   top: 0px;
-   right: 0px;
-  margin: 4px 10px;
-  border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 4px 10px;
+    border-radius: 3px;
 }
-
 .nav > li > a {
     position: relative;
     display: block;
-   padding: 3px 17px;
-
+    padding: 3px 17px;
 }
-.sidebar-menu{
+.sidebar-menu {
     padding: 10px;
     color: white;
 }
-.sub-menu{
+.sub-menu {
     padding: 20px;
 }
 ul li {
     list-style: none;
-
-
-
 }
-
 ul {
-    
     margin-top: 0;
     margin-bottom: 10px;
 }
-ul li a{
+ul li a {
     color: white;
-   }
-.sidebar-menu li:hover{
-    background-color: #9C4C9D;
-
 }
-.sidebar-menu li a :hover{
+.sidebar-menu li:hover {
+    background-color: #9C4C9D;
+}
+.sidebar-menu li a:hover {
     color: white;
     text-decoration: none;
-    
 }
-#main-content{
+#main-content {
     margin-left: 15%;
-
-
 }
+
 /*BUTTONS.HTML*/
-.showback{
-margin: 6% 1% -15px 1%;
-padding: 9px 8px;
-background-color: #FFFFFF;
-box-shadow: 0px 4px 4px 0px #BFC5CD;
 
+.showback {
+    margin: 6% 1% -15px 1%;
+    padding: 9px 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #BFC5CD;
 }
-.form-panel{
+.form-panel {
     margin: 20px 15px;
-    
 }
-.form-panel .form-group{
-text-align: left;
+.form-panel .form-group {
+    text-align: left;
 }
-
 .btn {
     font-size: 12px;
     padding: 3px 5px;
 }
 h4 {
-    color:#989898;
+    color: #989898;
 }
-.btn-lg{
-padding: 8px 14px;
+.btn-lg {
+    padding: 8px 14px;
     font-size: 15px;
 }
-.btn-def{
-
+.btn-def {
     font-size: 13px;
-   padding: 5px 10px;
+    padding: 5px 10px;
 }
-.btn-sm{
+.btn-sm {
     font-size: 11px;
     padding: 3px 8px
 }
-h1 ,.btn-theme ,.btn-theme02 , .btn-theme03 ,.btn-theme04{
+h1, .btn-theme, .btn-theme02, .btn-theme03, .btn-theme04 {
     color: #989898;
 }
+
 /*DASHBOARD.HGTML*/
-.box1{
+
+.box1 {
     font-size: 35px;
     text-align: center;
-     color: #989898;
+    color: #989898;
     margin: 25px 5px;
     padding: 5px;
-     border-bottom: 1px solid #989898;
-   
+    border-bottom: 1px solid #989898;
 }
-.box1 h3{
+.box1 h3 {
     font-size: 20px;
 }
-.box0:hover{
-background-color: #FFFFFF;
+.box0:hover {
+    background-color: #FFFFFF;
+}
+.box0 p {
+    display: none;
+}
+.box1:hover {
+    border:1px solid white;
+
 }
 
-.box0 p{
- display: none;
-}
-.box0 span:hover{
-display: block;
-}
-
-
-.page-header{
+.page-header {
     padding: 0px;
 }
-.ds{
-
-background-color: white;
+.ds {
+    background-color: white;
 }
-.ds h3{
+.ds h3 {
     color: white;
     text-align: center;
     font-size: 14px;
     background-color: #9C4C9D;
-    padding:12px 17px;
+    padding: 12px 17px;
 }
-.col-md-5 p{
+.col-md-5 p {
     color: #989898;
 }
-.page-header h1{
-
+.page-header h1 {
     font-size: 26px;
 }
-.desc{
+.desc1 {
     border-bottom: 1px solid #989898;
 }
 .details {
-        margin-left: 44px;
+    margin-left: 44px;
     margin-top: -22px;
 }
 .thumb span {
     margin: 5px 10px;
     background-color: #6EDFF0;
 }
-p muted{
-text-transform: uppercase;
-font-style: italic;
-}
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-    padding-left:3px;
-    padding-right: 3px; 
-}
-.content-panel{
-    margin: 0px;
-}
-.form-login-heading{
+p muted {
     text-transform: uppercase;
-    padding:4% 2%;
+    font-style: italic;
+}
+
+/*LOGIN.html*/
+.form-login-heading {
+    text-transform: uppercase;
+    padding: 6% 10%;
     font-size: 20px;
-    background-color:  #6EDFF0;
+    background-color: #6EDFF0;
     color: white;
     text-align: center;
 }
-.form-login{
-margin: 10% 34%;
-background-color: white;
-
+.form-login {
+    margin: 10% 36%;
+    background-color: white;
 }
-.login-wrap{
-padding: 5%;
+.login-wrap {
+    padding: 5%;
 }
-.registration{
-    color:#989898;
+.registration {
+    color: #989898;
     text-align: center;
 }
 .login-social-link {
-    color:#989898;
+    color: #989898;
+}
+/*gallery.html*/
+.wrappergallery{
+    float: right;
+    
+    width: 100%;
+}
+.project-wrapper{
+padding:0px 40px 20px 5px;
+
 }
