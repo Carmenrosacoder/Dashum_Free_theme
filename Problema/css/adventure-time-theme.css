@@ -108,9 +108,6 @@ ul li a {
     font-size: 12px;
     padding: 3px 5px;
 }
-h4 {
-    color: #989898;
-}
 .btn-lg {
     padding: 8px 14px;
     font-size: 15px;
@@ -123,7 +120,7 @@ h4 {
     font-size: 11px;
     padding: 3px 8px
 }
-h1, .btn-theme, .btn-theme02, .btn-theme03, .btn-theme04 {
+h1,h3,h4, .btn-theme, .btn-theme02, .btn-theme03, .btn-theme04 {
     color: #989898;
 }
 
@@ -142,10 +139,14 @@ h1, .btn-theme, .btn-theme02, .btn-theme03, .btn-theme04 {
 }
 .box0:hover {
     background-color: #FFFFFF;
+
 }
+
+
 .box0 p {
-    display: none;
+    visibility:hidden;
 }
+
 .box1:hover {
     border:1px solid white;
 
@@ -156,6 +157,7 @@ h1, .btn-theme, .btn-theme02, .btn-theme03, .btn-theme04 {
 }
 .ds {
     background-color: white;
+    padding: 0px 15px;
 }
 .ds h3 {
     color: white;
@@ -171,11 +173,15 @@ h1, .btn-theme, .btn-theme02, .btn-theme03, .btn-theme04 {
     font-size: 26px;
 }
 .desc1 {
+    padding: 5px;
     border-bottom: 1px solid #989898;
 }
 .details {
     margin-left: 44px;
     margin-top: -22px;
+}
+.cp {
+    margin-top: -35px;
 }
 .thumb span {
     margin: 5px 10px;
@@ -212,7 +218,7 @@ p muted {
 /*gallery.html*/
 .wrappergallery{
     float: right;
-    
+
     width: 100%;
 }
 .project-wrapper{
